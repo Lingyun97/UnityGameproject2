@@ -8,5 +8,5 @@ ChingMu Vrpn for matlab simulink<br>
 4.打开Simulink_Multi_NoDisplay.slx，修改Body ID input。<br>
 5.使用Simulation下的运行开始接收数据。<br>
 6.退出matlab前，按序调用以下命令卸载dll:<br>
-    &ensp;calllib('CMVrpn', 'CMUnityQuitExtern');<br>
-    &ensp;unloadlibrary('CMVrpn');<br>
+&emsp;&emsp;calllib('CMVrpn', 'CMUnityQuitExtern');<br>
+&emsp;&emsp;unloadlibrary('CMVrpn');<br>
