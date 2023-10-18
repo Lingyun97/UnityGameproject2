@@ -7,6 +7,6 @@ ChingMu Vrpn for matlab simulink<br>
 3.修改getVrpnArray.m中的VrpnServer地址。<br>
 4.打开Simulink_Multi_NoDisplay.slx，修改Body ID input。<br>
 5.使用Simulation下的运行开始接收数据。<br>
-6.退出matlab前，按序调用以下命令卸载dll:
-  calllib('CMVrpn', 'CMUnityQuitExtern');
-  unloadlibrary('CMVrpn');
+6.退出matlab前，按序调用以下命令卸载dll:<br>
+  calllib('CMVrpn', 'CMUnityQuitExtern');<br>
+  unloadlibrary('CMVrpn');<br>
